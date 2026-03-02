@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int inicio, fim, i = 0;
+
+    scanf("%d %d", &inicio, &fim);
+
+    do {
+        inicio ++;
+
+        if (inicio == 24) {
+            inicio = 0;
+        }
+
+        i++;
+    } while (inicio != fim);
+    
+    printf("O JOGO DUROU %d HORA(S)", i);
+
+    return 0;
+}
