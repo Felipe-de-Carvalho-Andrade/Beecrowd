@@ -3,7 +3,6 @@
 class URI {
 
     static void Main(string[] args) { 
-
       int kind_of_tea = int.Parse(Console.ReadLine());
       string[] inputs = Console.ReadLine().Split(' ');
 

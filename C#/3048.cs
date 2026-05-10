@@ -1,9 +1,7 @@
 ﻿using System;
 
-public class URI
-{
-    static void Main(string[] args)
-    {
+public class URI {
+    static void Main(string[] args) {
         int N = int.Parse(Console.ReadLine());
         int[] numbers = new int[N];
 

@@ -1,12 +1,10 @@
 ﻿using System;
 
 public class URI {
-    static void Main(string[] args)
-    {
+    static void Main(string[] args) {
         int N = int.Parse(Console.ReadLine());
 
-        for (int i = 0; i < N; i++)
-        {
+        for (int i = 0; i < N; i++) {
             string M = Console.ReadLine();
             int half = M.Length / 2;
 
@@ -19,10 +17,9 @@ public class URI {
         }
     }
 
-    static string Reverse(string s)
-    {
+    static string Reverse(string s) {
         char[] array = s.ToCharArray();
-        Array.Reverse(array);
-        return new string(array);
+
+        return new string(Array.Reverse(array));
     }
 }

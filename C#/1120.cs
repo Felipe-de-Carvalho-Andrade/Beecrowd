@@ -3,7 +3,6 @@
 class URI {
 
     static void Main(string[] args) { 
-
        string inputs;
 
             while ((inputs = Console.ReadLine()) != null) {
